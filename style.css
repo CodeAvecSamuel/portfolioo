@@ -442,18 +442,18 @@
     }
 
     div.trait_espacement{
-        width: 100%;
+        width: 95%;
         margin-top: 55px;
         margin-bottom: 25px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .swipe_drive_brain{
-        width: 100%; 
+        width: 95%; 
         margin-top: 10px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .image_info1{
@@ -479,17 +479,15 @@
 
     .info_plus2{
         width: 100%;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 0px;
+        padding: 0px 6%;
     }
 
     .motivation{
         display: block;
-        width:100%;
+        width:95%;
         max-width: 300px;
-        margin-top: 0px;
-        margin-left: 0px;
+        margin-top: auto;
+        margin-left: auto;
         height: 250px;
         margin-top: 20px;
     }
@@ -512,9 +510,9 @@
     }
 
     div.points_forts{
-        width: 100%;
-        margin-left: 0px;
-        margin-right: 0px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 16px;
         padding: 8px 20px;
         text-align: left;
