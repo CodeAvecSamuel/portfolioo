@@ -459,12 +459,12 @@
     }
 
     .image_info1{
-        left: 22%;
+        left: 20%;
         font-family:  'Proxima-Nova-ScOsf-Semibold';
     }
 
     .image_info2{
-        left: 22%;
+        left: 20%;
     }
     
 
@@ -537,7 +537,7 @@
     .mes_p, li{
         /*color: #484D51;*/
         color: #271A38;
-        font-size: 16px;
+        font-size: 18px;
         font-family: 'Proxima-Nova-ScOsf-Semibold';
         margin-right: 0%;
     }
@@ -546,10 +546,6 @@
 
           /* css responsive*/
 @media only screen and (max-width: 767px) {
-
-    div.points_forts{
-        box-shadow: none;
-    }
 
     img.cover_profile{
         height: 90px;
