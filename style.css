@@ -479,7 +479,9 @@
 
     .info_plus2{
         width: 100%;
-        padding: 0% 10%;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 0px;
     }
 
     .motivation{
