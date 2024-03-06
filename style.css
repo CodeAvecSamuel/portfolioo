@@ -441,6 +441,9 @@
 
     .swipe{
         margin-top: 25px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     div.trait_espacement{
