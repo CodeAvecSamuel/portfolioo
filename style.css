@@ -259,7 +259,7 @@
 
         h3{
             color: #61686E;
-            font-family: inter;
+            font-family:  'Proxima-Nova-Regular';
             font-size: 30px;
             margin-bottom: 0px;
             padding: 0px 0px;
@@ -282,9 +282,9 @@
 
         .mes_p, li{
             /*color: #484D51;*/
-            color: #271A38;
-            font-size: 18px;
-            font-family:  'Proxima-Nova-ScOsf-Semibold';
+            color: #282828;
+            font-size: 20px;
+            font-family:  'Proxima-Nova-Regular';
         }
 
         div.tag p{
@@ -295,8 +295,8 @@
             width: 125px;
             text-align: center;
             color: #FF2F92;
-            font-size: 14px;
-            font-family: 'arial black';
+            font-size: 18px;
+            font-family:  'Proxima-Nova-Regular';
         }
 
         div.tag{
@@ -307,8 +307,7 @@
 
         div.style_personnel{
             width: 100%;
-            font-family: Arial;
-            font-size: 16px;
+            font-family:  'Proxima-Nova-Regular';
             text-align: left;
             padding: 0px 0px;
             margin-top: 0px;
@@ -330,8 +329,8 @@
         div.motivation p{
             margin-top: 16px 0px 0px;
             font-size: 14px;
-            font-family:  'Proxima-Nova-ScOsf-Semibold';
-            color: #61686E;
+            font-family:  'Proxima-Nova-Regular';
+            color: #282828;
             text-align: center;
         }
 
@@ -380,15 +379,15 @@
         .table_info_plus1 tr{
             line-height: 2.5;
             font-size: 18px;
-            font-family:  'Proxima-Nova-ScOsf-Semibold';
-            color: #271A38;
+            font-family: 'Proxima-Nova-Regular';
+            color: #282828;
         }
         
         .td_text_points_forts{
             font-weight: 900;
             font-size: 20px;
             height: 5px;
-            color: #61686E;
+            color: #271A38;
             padding-left: 10px;
             padding-top: 0;
             margin-top: 5px;
@@ -402,11 +401,11 @@
         }
 
         .image_info1{
-            margin-top: 95px;left: 10%; font-size: 27px;position: absolute;font-family:  'Proxima-Nova-ScOsf-Semibold';
+            margin-top: 95px;left: 10%; font-size: 27px;position: absolute;font-family:  'Proxima-Nova-Regular';
         }
 
         .image_info2{
-            margin-top: 140px; left: 10%;margin-bottom:  25px;font-size: 12px; position: absolute;font-family:  'Proxima-Nova-ScOsf-Semibold';
+            margin-top: 140px; left: 10%;margin-bottom:  25px;font-size: 12px; position: absolute;font-family:  'Proxima-Nova-Regular';
         }
 
         .swipe{
@@ -463,7 +462,6 @@
 
     .image_info1{
         left: 20%;
-        font-family:  'Proxima-Nova-ScOsf-Semibold';
     }
 
     .image_info2{
@@ -480,7 +478,7 @@
 
     .table_info_plus1 tr{
         font-size: 14px;
-        font-family:  'Proxima-Nova-ScOsf-Semibold';
+        font-family:  'Proxima-Nova-Regular';
     }
 
     .info_plus2{
@@ -501,7 +499,7 @@
     div.motivation p{
         margin-top: 16px;
         font-size: 16px;
-        font-family: inter, sans-serif;
+        font-family:  'Proxima-Nova-Regular';
         color: #61686E;
         text-align: center;
     }
@@ -520,15 +518,14 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 16px;
-        padding: 8px 8px;
+        padding: 8px 20px;
         font-size: 14px;
     }
     
 
     div.style_personnel{
         width: 100%;
-        font-family: Arial;
-        font-size: 16px;
+        font-family:  'Proxima-Nova-Regular';
         text-align: left;
         padding: 0px 0px;
         margin-top: 0px;
@@ -540,8 +537,8 @@
     .mes_p, li{
         /*color: #484D51;*/
         color: #271A38;
-        font-size: 18px;
-        font-family: 'Proxima-Nova-ScOsf-Semibold', inter;
+        font-size: 20px;
+        font-family:  'Proxima-Nova-Regular';
         margin-right: 0%;
     }
 
@@ -645,4 +642,5 @@
     .display_mobile{
         display: block;
     }
+
 }
