@@ -460,6 +460,7 @@
 
     .image_info1{
         left: 22%;
+        font-family:  'Proxima-Nova-ScOsf-Semibold';
     }
 
     .image_info2{
@@ -512,15 +513,14 @@
     }
 
     div.points_forts{
-        width: 95%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 16px;
-        padding: 8px 20px;
-        text-align: left;
+        padding: 8px 8px;
         font-size: 14px;
-        display: block;
     }
+    
 
     div.style_personnel{
         width: 100%;
@@ -546,6 +546,11 @@
 
           /* css responsive*/
 @media only screen and (max-width: 767px) {
+
+    div.points_forts{
+        box-shadow: none;
+    }
+
     img.cover_profile{
         height: 90px;
         margin-top: 75px;
