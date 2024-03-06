@@ -432,7 +432,7 @@
     }
 
     h3{
-        font-size: 22px;
+        font-size: 24px;
     }
 
     li{
@@ -538,7 +538,7 @@
         /*color: #484D51;*/
         color: #271A38;
         font-size: 18px;
-        font-family: 'Proxima-Nova-ScOsf-Semibold';
+        font-family: 'Proxima-Nova-ScOsf-Semibold', inter;
         margin-right: 0%;
     }
 
