@@ -251,7 +251,7 @@
             border-radius: 50%;
             width: 170px;
             height: 170px;
-            left: 10%;
+            left: 12%;
             bottom: -100px;
             margin-top: 0px;
             position: absolute
@@ -329,8 +329,8 @@
 
         div.motivation p{
             margin-top: 16px 0px 0px;
-            font-size: 13px;
-            font-family: arial;
+            font-size: 14px;
+            font-family:  'Proxima-Nova-ScOsf-Semibold';
             color: #61686E;
             text-align: center;
         }
@@ -459,11 +459,11 @@
     }
 
     .image_info1{
-        left: 20%;
+        left: 22%;
     }
 
     .image_info2{
-        left: 18.5%;
+        left: 22%;
     }
     
 
@@ -476,12 +476,12 @@
 
     .table_info_plus1 tr{
         font-size: 14px;
-        font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:  'Proxima-Nova-ScOsf-Semibold';
     }
 
     .info_plus2{
         width: 100%;
-        padding: 0px 10%;
+        padding: 0px 6%;
     }
 
     .motivation{
@@ -537,12 +537,10 @@
     .mes_p, li{
         /*color: #484D51;*/
         color: #271A38;
-        font-size: 18px;
+        font-size: 16px;
         font-family: 'Proxima-Nova-ScOsf-Semibold';
         margin-right: 0%;
     }
-
- 
 
 
 
