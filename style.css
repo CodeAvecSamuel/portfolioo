@@ -457,11 +457,11 @@
     }
 
     .image_info1{
-        left: 28%;
+        left: 20%;
     }
 
     .image_info2{
-        left: 26.5%;
+        left: 18.5%;
     }
     
 
@@ -479,7 +479,7 @@
 
     .info_plus2{
         width: 100%;
-        padding: 0px 5%;
+        padding: 0px 2.5%;
     }
 
     .motivation{
@@ -503,7 +503,7 @@
     img.samuel{
         width: 180px;
         height: 180px;
-        left: 30%;
+        left: 23%;
         bottom: -80px;
         margin-top: 0px;
         position: absolute
