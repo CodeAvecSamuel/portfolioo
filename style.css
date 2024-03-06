@@ -237,7 +237,11 @@
 
         img.portfolio{
             width: 70%;
-            max-width: 550px;
+            max-width: 475px;
+        }
+
+        .display_mobile{
+            display: none;
         }
 
 /*info_plus.html*/
@@ -396,21 +400,81 @@
         }
 
         .image_info1{
-            margin-top: 95px;left: 10%; font-size: 25px;position: absolute;
+            margin-top: 95px;left: 10%; font-size: 27px;position: absolute;font-family: inter;
         }
 
         .image_info2{
             margin-top: 140px; left: 8%;margin-bottom:  25px;font-size: 12px; position: absolute;
         }
 
+        .swipe{
+            
+            border: 1px solid silver;
+            height: 2px;
+            margin-top: -10px;
+            margin-bottom: 25px;
+            margin-left: 0;
+            margin-right: 0;
+            width: 90%;
+        }
+
+        .mespp{
+            width: 90%;
+        }
 
         /* css responsive*/
 @media screen and (max-width: 960px) {
+    .mespp{
+        width: 100%;
+
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    li{
+        margin:0px 0px 15px 0px;
+    }
+
+    .swipe{
+        margin-top: 25px;
+    }
+
+    div.trait_espacement{
+        width: 95%;
+        margin-top: 55px;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .swipe_drive_brain{
+        width: 95%; 
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .image_info1{
+        left: 28%;
+    }
+
+    .image_info2{
+        left: 26.5%;
+    }
+    
+
     .info_plus1 {
-      width: 90%;
+      width: 100%;
       display: block;
       padding: 0px 2.5%;
-      box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.0);
+      box-shadow: none;
+    }
+
+    .table_info_plus1 tr{
+        font-size: 14px;
+        font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     .info_plus2{
@@ -420,18 +484,16 @@
 
     .motivation{
         display: block;
-        text-align: center;
-        margin-top: 20px;
-        width: 300px;
+        width:95%;
+        max-width: 300px;
+        margin-top: auto;
+        margin-left: auto;
         height: 250px;
-        font-size: 16px;
-        font-family: inter, sans-serif;
-        margin-left: 6%;
-        margin-right: 5%;
+        margin-top: 20px;
     }
 
     div.motivation p{
-        margin-top: 16px 0px 0px;
+        margin-top: 16px;
         font-size: 16px;
         font-family: inter, sans-serif;
         color: #61686E;
@@ -439,29 +501,15 @@
     }
 
     img.samuel{
-        border-radius: 50%;
         width: 180px;
         height: 180px;
-        left: 27%;
-        bottom: -100px;
+        left: 30%;
+        bottom: -80px;
         margin-top: 0px;
         position: absolute
     }
 
-    .image_info1{
-        margin-top: 100px;left: 25%; font-size: 26px;position: absolute;
-    }
-
-    .image_info2{
-        margin-top: 140px; left: 15%;margin-bottom:  25px;font-size: 15px; position: absolute;
-    }
-
     div.points_forts{
-        border-top: 1px solid red;
-        border-bottom: 1px solid blue;
-        border-left: 1px solid rgb(255, 166, 0);
-        border-right: 1px solid rgb(225, 166, 0);
-        box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
         width: 95%;
         margin-left: auto;
         margin-right: auto;
@@ -492,17 +540,12 @@
         margin-right: 0%;
     }
 
-    div.motivation p{
-        margin-top: 16px 0px 0px;
-        font-size: 18px;
-        font-family: arial;
-        color: #61686E;
-        text-align: center;
-    }
-  }
+ 
+
+
 
           /* css responsive*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     img.cover_profile{
         height: 90px;
         margin-top: 75px;
@@ -559,10 +602,6 @@
         width: 70px;
     }
 
-    iframe{
-        height: 250px;
-    }
-
     .portfolio_header_title{
         font-size: 18px;
         font-weight: bold;
@@ -583,7 +622,23 @@
         padding-left: 4px;
     }
 
+    h1.portfolio{
+        font-size: 40px;
+    }
+
+    h2.portfolio{
+        font-size: 22px;
+    }
+
+    img.portfolio{
+        width: 100%;
+    }
+
     a.contact-me{
          right:12px;
+    }
+
+    .display_mobile{
+        display: block;
     }
 }
