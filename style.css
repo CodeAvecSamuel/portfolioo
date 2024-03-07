@@ -170,6 +170,7 @@
 
         div.texte_avec_ligne_verticale p{
             margin-top: 0;
+            font-size: 18px;
         }
 
         div.barre_verticale{
@@ -265,6 +266,7 @@
             margin-bottom: 0px;
             padding: 0px 0px;
             font-weight: bold;
+            text-decoration: none;
         }
 
         div.points_forts{
@@ -431,11 +433,6 @@
 
     }
 
-    h3{
-        font-size: 28
-        px;
-    }
-
     li{
         margin:0px 0px 15px 0px;
     }
@@ -548,6 +545,11 @@
 
           /* css responsive*/
 @media only screen and (max-width: 767px) {
+
+    h3{
+        font-size: 20px;
+        text-decoration: underline;
+    }
 
     img.cover_profile{
         height: 90px;
