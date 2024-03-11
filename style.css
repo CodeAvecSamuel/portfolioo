@@ -500,11 +500,11 @@
     .motivation{
         display: block;
         width:95%;
-        max-width: 210px;
+        max-width: 350px;
         margin-right: 2.5%;
         margin-left: 2.5;
         margin-bottom: 20px;
-        height: 150px;
+        height: 180px;
         margin-top: 20px;
         padding: 0px 0px;
     }
