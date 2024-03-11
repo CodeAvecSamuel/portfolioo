@@ -438,6 +438,14 @@
             color: #282828;
         }
 
+        .en_savoir_plus1{
+            display: block;
+        }
+    
+        .en_savoir_plus2{
+            display: none;
+        }
+
         /* css responsive*/
 @media screen and (max-width: 960px) {
     .mespp{
@@ -495,6 +503,14 @@
     .info_plus2{
         width: 100%;
         padding: 0px 6%;
+    }
+
+    .en_savoir_plus1{
+        display: none;
+    }
+
+    .en_savoir_plus2{
+        display: block;
     }
 
     .motivation{
